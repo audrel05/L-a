@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "Caveat";
+    src: url("./fonts/Caveat.ttf");
+}
+
+* {
+    text-decoration: none;
+    color: #6E9277;
+    font-family: "Caveat";
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40%;
+    margin-top: 5%;
+}
+
+.header img {
+    width: 300px;
+    position: absolute;
+
+}
+
+.names {
+    font-family: "Caveat";
+    color: #6E9277;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-around;
+    text-align: right;
+    width: 35vw;
+}
+
+.title {
+    margin-left: 3%;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10%
+    
+}
+
